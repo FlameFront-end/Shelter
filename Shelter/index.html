@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <nav class="header-top">
+            <div class="logo">
+                <h1 class="title">Cozy House</h1>
+                <h2 class="subtitle">Shelter for pets in Boston</h2>
+            </div>
+            <ul class="navbar">
+                <li class="active"><a href="#">About the shelter</a></li>
+                <li><a href="#">Our pets</a></li>
+                <li><a href="#">Help the shelter</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="text">
+                <h2 class="heading">
+                    Not only people <br>
+                    need a house
+                </h2>
+                <h3 class="subheading">
+                    We offer to give a chance to a little and nice puppy with an extremely
+                    wide and open heart. He or she will love you more than anybody else
+                    in the world, you will see!
+                </h3>
+                <button class="btn">
+                    Make a friend
+                </button>
+            </div>
+            <img src="./img/header-img.png" alt="header-img">
+        </div>
+    </div>
+</header>
+<section class="about">
+    <div class="container-about">
+        <div class="content">
+            <img src="./img/about-pets.png" alt="about pets">
+            <div class="text">
+                <h2 class="heading">
+                    About the shelter <br>
+                    “Cozy House”
+                </h2>
+                <h3 class="subheading">
+                    <p>
+                        Currently we have 121 dogs and 342 cats on our hands and
+                        statistics show that only 20% of them will find a family. The
+                        others will continue to live with us and will be waiting for a lucky
+                        chance to become dearly loved.
+                    </p>
+                    <p>
+                        We feed our wards with the best food and make sure that they
+                        do not get sick, feel comfortable (including psychologically) and
+                        well. We are supported by 87 volunteers and 28 employees of
+                        various skill levels. About 12% of
+                        the animals are taken by the shelter staff. Taking care of the
+                        animals, they become attached
+                        to the pets and would hardly ever leave them alone.
+                    </p>
+                </h3>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="pets">
+    <div class="container-pets">
+        <div class="content">
+            <div class="heading">
+                <div class="top">Our friends who</div>
+                <div class="bottom">are looking for a house</div>
+            </div>
+            <div class="slider-box">
+                <button class="arrow-left arrow btn">
+                    <img src="./img/slider/arrow-left.png" alt="">
+                </button>
+                <div class="slider-item">
+                    <img src="./img/slider/slider-1.png" alt="Katrine">
+                    <h3 class="name">Katrine</h3>
+                    <button class="learn-more btn" onclick="showModal()">Learn more</button>
+                </div>
+                <div class="slider-item">
+                    <img src="./img/slider/slider-2.png" alt="Jennifer">
+                    <h3 class="name">Jennifer</h3>
+                    <button class="learn-more btn" onclick="showModal()">Learn more</button>
+                </div>
+                <div class="slider-item">
+                    <img src="./img/slider/slider-3.png" alt="Woody">
+                    <h3 class="name">Woody</h3>
+                    <button class="learn-more btn" onclick="showModal()">Learn more</button>
+                </div>
+                <button class="arrow-right arrow btn">
+                    <img src="./img/slider/arrow-right.png" alt="arrow right">
+                </button>
+            </div>
+        </div>
+        <button class="get btn">Get to know the rest</button>
+    </div>
+</section>
+<section class="help">
+    <div class="container-help">
+        <div class="heading">
+            <div class="top">How you can help</div>
+            <div class="bottom">our shelter</div>
+        </div>
+        <div class="list">
+            <div class="list-item">
+                <img src="./img/list/1.png" alt="" class="list-img">
+                <h3 class="list-text">Pet food</h3>
+            </div>
+            <div class="list-item">
+                <img src="./img/list/2.png" alt="">
+                <h3 class="list-text">Transportation</h3>
+            </div>
+            <div class="list-item">
+                <img src="./img/list/3.png" alt="">
+                <h3 class="list-text">Toys</h3>
+            </div>
+            <div class="list-item">
+                <img src="./img/list/4.png" alt="">
+                <h3 class="list-text">Bowls and cups</h3>
+            </div>
+            <div class="list-item">
+                <img src="./img/list/5.png" alt="">
+                <h3 class="list-text">Shampoos</h3>
+            </div>
+            <div class="list-item">
+                <img src="./img/list/6.png" alt="">
+                <h3 class="list-text">Vitamins</h3>
+            </div>
+            <div class="list-item">
+                <img src="./img/list/7.png" alt="">
+                <h3 class="list-text">Medicines</h3>
+            </div>
+            <div class="list-item">
+                <img src="./img/list/8.png" alt="">
+                <h3 class="list-text">Collars / leashes</h3>
+            </div>
+            <div class="list-item">
+                <img src="./img/list/9.png" alt="">
+                <h3 class="list-text">Sleeping areas</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="donation">
+    <div class="container-about"></div>
+</section>
+<div class="modal active">
+    <img src="./img/slider/slider-2.png" alt="Jennifer" class="modal-img">
+    <div class="text">
+        <div class="modal-top">
+            <h2 class="title">Jennifer</h2>
+            <h3 class="subtitle">Dog - Labrador</h3>
+        </div>
+        <p class="descr">
+            Jennifer is a sweet 2 months old
+            Labrador that is patiently waiting to
+            find a new forever home. This girl really
+            enjoys being able to go outside to run
+            and play, but won't hesitate to play up a
+            storm in the house if she has all of her favorite toys.
+        </p>
+        <ul>
+            <li><span>Age:</span> 2 months</li>
+            <li><span>Inoculations:</span>none</li>
+            <li><span>Diseases:</span>none</li>
+            <li><span>Parasites:</span>none</li>
+        </ul>
+    </div>
+    <button class="close-modal btn" onclick="closeModal()">
+        <img src="./img/close.png" alt="close">
+    </button>
+</div>
+<div class="overlay active"></div>
+<script src="./app.js"></script>
+</body>
+</html>
