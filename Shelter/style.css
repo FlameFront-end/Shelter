@@ -25,11 +25,6 @@ a {
     margin: 0 auto;
 }
 
-
-.text {
-
-}
-
 header {
     background-image: url(./img/header-bg.png);
     height: 100%;
@@ -49,6 +44,7 @@ nav {
     align-items: center;
     flex-direction: column;
 }
+
 .title {
     color: #F1CDB3;
     margin-bottom: 10px;
@@ -94,6 +90,7 @@ header .content .text {
     display: flex;
     flex-direction: column;
 }
+
 header .heading {
     font-size: 44px;
     line-height: 130%;
@@ -103,7 +100,6 @@ header .heading {
 
 header .subheading {
     color: #CDCDCD;
-
     font-family: 'Arial', serif;
     font-style: normal;
     font-weight: 400;
@@ -125,10 +121,6 @@ header .btn {
 
     max-width: 207px;
     max-height: 52px;
-}
-
-header .btn:hover {
-    background-color: #FDDCC4;
 }
 
 header img {
@@ -158,6 +150,7 @@ header img {
     flex-direction: column;
     padding: 0 25px;
 }
+
 .about .heading {
     font-size: 35px;
     line-height: 130%;
@@ -183,6 +176,7 @@ header img {
 
 
 /*PETS START*/
+
 .pets {
     background: #F6F6F6;
 }
@@ -234,6 +228,7 @@ header img {
 .pets .content {
     width: 100%;
 }
+
 .name {
     font-size: 20px;
     line-height: 23px;
@@ -259,11 +254,6 @@ header img {
     margin-bottom: 45px;
 }
 
-.learn-more:hover {
-    border: 2px solid #FAFAFA;
-    background-color: #F1CDB3;
-}
-
 .get {
     width: 261px;
     height: 52px;
@@ -274,11 +264,6 @@ header img {
     margin: 0 auto 100px auto ;
 }
 
-.get:hover {
-    background-color: #FAFAFA;
-    border: 2px solid #F1CDB3;
-}
-
 .arrow {
     width: 52px;
     height: 52px;
@@ -287,13 +272,6 @@ header img {
     border: 2px solid #F1CDB3;
     border-radius: 100px;
 }
-
-.arrow:hover {
-    background: #F1CDB3;
-    border: 2px solid #FFFFFF;
-}
-
-
 
 
 /*HELP START*/
@@ -327,9 +305,10 @@ header img {
     width: 56px;
 }
 
+/*HELP END*/
 
 
-
+/*MODAl START*/
 
 .modal {
     position: fixed;
@@ -364,16 +343,9 @@ header img {
     border-radius: 100px;
 }
 
-.close-modal:hover {
-    border: 2px solid transparent;
-    background-color: #F1CDB3;
-}
-
 .modal .text {
     width: 40%;
 }
-
-
 
 .modal .title {
     padding-top: 10px;
@@ -420,6 +392,8 @@ header img {
 .overlay.active {
     display: block;
 }
+
+/*MODAl END*/
 
 
 
@@ -542,4 +516,31 @@ header img {
     }
 }
 
+@media (hover:hover) {
 
+    header .btn:hover {
+        background-color: #FDDCC4;
+    }
+
+    .close-modal:hover {
+        border: 2px solid transparent;
+        background-color: #F1CDB3;
+    }
+
+    .get:hover {
+        background-color: #FAFAFA;
+        border: 2px solid #F1CDB3;
+    }
+
+    .arrow:hover {
+        background: #F1CDB3;
+        border: 2px solid #FFFFFF;
+    }
+
+    .learn-more:hover {
+        border: 2px solid #FAFAFA;
+        background-color: #F1CDB3;
+    }
+
+
+}
