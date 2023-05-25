@@ -1,0 +1,64 @@
+.donation {
+  padding-top: 80px;
+  font-family: 'Georgia', sans-serif;
+  background: #F6F6F6;
+  .container {
+    max-width: 975px;
+    margin: 0 auto;
+    .content{
+      display: flex;
+      padding-bottom: 95px;
+      color: #545454;
+      .text {
+        margin-left: 30px;
+        .heading {
+          width: 100%;
+          margin-bottom: 20px;
+          font-size: 35px;
+          line-height: 130%;
+          letter-spacing: 0.06em;
+        }
+        .subheading {
+          font-size: 15px;
+          line-height: 16.5px;
+          letter-spacing: 0.06em;
+        }
+        .descr {
+          font-family: 'Arial', sans-serif;
+          font-style: italic;
+          font-size: 12px;
+          line-height: 18px;
+          color: #B2B2B2;
+        }
+      }
+    }
+  }
+}
+
+.card {
+  margin: 20px 0;
+
+  border-radius: 9px;
+  display: inline-flex;
+  align-items: center;
+
+  font-family: 'Georgia', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  background-color: #F1CDB3;
+  color: #545454;
+  transition: background-color .5s ease-in-out;
+  .card-content {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    .credit-card {
+      padding-right: 15px;
+    }
+  }
+}
+
+.donation-img {
+  max-width: 505px;
+  width: 100%;
+}

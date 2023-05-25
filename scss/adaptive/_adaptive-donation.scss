@@ -1,0 +1,50 @@
+@media (max-width: 960px) {
+  .donation {
+    .content {
+      flex-direction: column-reverse;
+      align-items: center;
+      .text {
+        max-width: 380px;
+        padding-bottom: 60px;
+        margin-left: 0 !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .donation {
+    .content {
+      display: flex;
+      .card {
+        font-size: 15px;
+        line-height: 110%;
+      }
+      .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 42px;
+        .heading {
+          font-size: 25px !important;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 530px) {
+  .donation {
+    padding-top: 22px;
+    .container {
+      .content {
+        padding-bottom: 42px;
+      }
+      .card {
+        width: 281px;
+      }
+    }
+  }
+}

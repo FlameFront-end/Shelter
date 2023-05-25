@@ -1,0 +1,35 @@
+.our-pets_header {
+  font-family: 'Georgia', sans-serif;
+  background: #FFFFFF;
+  .nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .logo {
+      .title {
+        color: #545454;
+      }
+    .subtitle {
+      color: #292929;
+    }
+  }
+  .navlist {
+    a {
+      color: #545454;
+    }
+    #active-link {
+      color: #292929;
+    }
+  }
+  .burger-line__pets {
+    background-color: #000000;
+  }
+}
+
+.burger-menu__pets {
+  background: #FFFFFF;
+}
+
+.burger-link__pets {
+  color: #292929;
+}

@@ -1,0 +1,75 @@
+.our-pets_pets {
+  background: #F6F6F6;
+  padding-top: 80px;
+  .container {
+    max-width: 1255px;
+  }
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .heading {
+      margin-bottom: 60px;
+      color: #545454;
+    }
+  }
+}
+
+.pets-box {
+  gap: 30px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-bottom: 60px;
+  .pets-item {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 9px;
+
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+
+    color: #545454;
+    background: #FAFAFA;
+    transition: all .5s ease-in-out;
+    img {
+      padding-bottom: 30px;
+    }
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 100px;
+  .first, .back {
+    transform: rotate(180deg);
+  }
+  .nav-btn {
+    border: 2px solid #F1CDB3;
+    width: 52px;
+    height: 52px;
+    &:disabled{
+      color: #CDCDCD;
+      border: 2px solid #CDCDCD;
+      cursor: not-allowed;
+    }
+    &:hover:enabled{
+      background: #FDDCC4;
+    }
+  }
+  .active-nav {
+    background: #F1CDB3;
+  }
+}
+
+
