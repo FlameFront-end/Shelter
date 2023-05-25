@@ -1,0 +1,43 @@
+.help {
+  width: 100%;
+  font-family: 'Georgia', sans-serif;
+  color: #545454;
+  .heading {
+    padding: 80px 0 60px 0;
+    text-align: center;
+  }
+}
+
+.container-help {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 120px;
+  row-gap: 55px;
+  margin-bottom: 100px;
+  align-items: end;
+  .list-item {
+    text-align: center;
+    img {
+      margin-bottom: 23px;
+      width: 60px;
+      height: 60px;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 115%;
+      letter-spacing: 0.06em;
+    }
+  }
+}
+
+
+
+
+
+
+

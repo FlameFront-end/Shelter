@@ -1,0 +1,32 @@
+.about {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  .about-container {
+    max-width: 930px;
+    padding: 0 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    .text {
+      max-width: 430px;
+      width: 100%;
+      .subheading {
+        font-size: 15px;
+        line-height: 24px;
+        color: #4C4C4C;
+        p {
+          margin-top: 25px;
+        }
+      }
+    }
+  }
+}

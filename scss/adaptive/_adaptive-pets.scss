@@ -1,0 +1,54 @@
+
+@media screen and (max-width: 1270px) {
+  .woody {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 980px) {
+  .slider-box {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .jennifer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .pets {
+    .get {
+      margin-bottom: 42px;
+    }
+    .content {
+      padding-top: 42px;
+      .heading{
+        width: 300px;
+        font-size: 25px;
+        line-height: 130%;
+      }
+    }
+  }
+  .slider-box {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 42px;
+    padding-top: 42px;
+    .slider-item {
+      margin-bottom: 10px;
+    }
+    .arrow-pre {
+      display: none;
+    }
+    .block-arrow {
+      display: flex;
+      justify-content: space-between;
+      .arrow-left {
+        margin-right: 76px;
+      }
+    }
+  }
+}

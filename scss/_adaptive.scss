@@ -1,0 +1,116 @@
+@import "./adaptive/adaptive-start";
+@import "./adaptive/adaptive-about";
+@import "./adaptive/adaptive-pets";
+@import "./adaptive/adaptive-help";
+@import "./adaptive/adaptive-donation";
+@import "./adaptive/adaptive-footer";
+
+@media screen and (max-width: 650px) {
+	.heading {
+		font-size: 25px;
+		line-height: 130%;
+	}
+}
+
+
+
+
+
+
+/*@media screen and (max-width: 768px) {
+	.list-item {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.list-item {
+		width: 40%;
+	}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (hover:hover) {
+
+	.header-start {
+		.btn:hover {
+			background-color: #FDDCC4;
+		}
+	}
+
+	.close-modal:hover {
+		border: 2px solid transparent;
+		background-color: #F1CDB3;
+	}
+
+	.get:hover {
+		background-color: #FDDCC4;
+		border: 2px solid #F1CDB3;
+	}
+
+	.arrow:hover {
+		background: #F1CDB3;
+		border: 2px solid #FFFFFF;
+	}
+
+	.learn-more:hover {
+		border: 2px solid #FAFAFA;
+		background-color: #F1CDB3;
+	}
+
+	.pets-item:hover {
+		.learn-more {
+			border: 2px solid #FAFAFA;
+			background-color: #F1CDB3;
+		}
+	}
+
+	.slider-item:hover {
+		.learn-more {
+			border: 2px solid #FAFAFA;
+			background-color: #F1CDB3;
+		}
+	}
+
+	.slider-item:hover {
+		box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
+	}
+
+	.pets-item:hover {
+		box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
+	}
+
+	.card:hover {
+		background-color: #FDDCC4;
+	}
+
+	.link-block:hover {
+		transform: scale(1.1);
+	}
+
+	.item .link-block:hover .link-text {
+		color: #FDDCC4;
+	}
+
+	.our-pets_header {
+		.navlist li a:hover {
+			color: #292929;
+		}
+	}
+}

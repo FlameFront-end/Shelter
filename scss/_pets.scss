@@ -1,0 +1,99 @@
+.pets {
+  background: #F6F6F6;
+  font-family: 'Georgia', sans-serif;
+  .container {
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    .heading {
+      text-align: center;
+      font-size: 35px;
+      line-height: 45.5px;
+      color: #545454;
+    }
+  }
+}
+
+.slider-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 60px;
+  padding-top: 60px;
+
+  .slider-item {
+    cursor: pointer;
+    text-align: center;
+    background: #FAFAFA;
+    border-radius: 9px;
+    transition: all .5s ease-in-out;
+    img {
+      padding-bottom: 30px;
+    }
+    .name {
+      font-family: 'Georgia', sans-serif;
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: 0.06em;
+      color: #545454;
+    }
+  }
+}
+
+.learn-more {
+  margin: 30px 0;
+  padding: 15px 45px;
+  font-family: 'Georgia', sans-serif;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+  background-color: #FAFAFA;
+
+  font-size: 17px;
+  line-height: 22.1px;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
+
+.get {
+  font-family: 'Georgia', sans-serif;
+  width: 261px;
+  height: 52px;
+
+  background: #F1CDB3;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+
+  font-size: 17px;
+  line-height: 22.1px;
+  letter-spacing: 0.06em;
+
+  margin-bottom: 100px;
+}
+
+.arrow {
+  width: 52px;
+  height: 52px;
+
+  background: #f6f6fa ;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+}
+.block-arrow {
+  display: none;
+}
+
+.block-slider {
+  display: flex;
+  gap: 90px;
+  overflow: hidden;
+}
+
